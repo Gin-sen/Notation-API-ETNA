@@ -24,7 +24,7 @@ def get_note(promo):
     my_dico = []
     my_result = []
     moyenne = 0
-    count_exo = 0;
+    count_exo = 0
     for p in promo['students']:
         my_dico.append({'student_name':p['login'], 'student_bench':main.SESSION.get(url_note.format(p['login'])).json()})
     for d in my_dico:
