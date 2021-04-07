@@ -1,0 +1,1098 @@
+[
+    {
+        "session_id": 7462,
+        "session_name": "2023_Bachelor - Octobre_CMG-ALG3_7_0",
+        "validation": null,
+        "activity_id": 41231,
+        "activity_name": "AlgoStats",
+        "activity_eliminate": null,
+        "uv_name": "CMG-ALG3",
+        "uv_long_name": "Algorithmique pour les statistiques",
+        "student_mark": 11.5,
+        "mark_date": "2021-03-03 16:03:14",
+        "checklist": {
+            "intro": "#Seul ce qui est disponible sur le d\u00c3\u00a9p\u00c3\u00b4t est corrig\u00c3\u00a9. En cas d'absence de rendu pour le readme, l'indiquer en commentaire de notation. Attention, les points des crit\u00c3\u00a8res de type \"Tri\" sont attribu\u00c3\u00a9s en fonction des r\u00c3\u00a9sultats aux validations des \u00c3\u00a9tapes du Quest.",
+            "stages": [
+                {
+                    "name": "insertion_sort",
+                    "coeff": 1,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 1,
+                    "comments": "#Le point est attribu\u00e9 si l\u2019\u00e9tape est valid\u00e9e."
+                },
+                {
+                    "name": "selection_sort",
+                    "coeff": 1,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 1,
+                    "comments": "#Le point est attribu\u00e9 si l\u2019\u00e9tape est valid\u00e9e."
+                },
+                {
+                    "name": "bubble_sort",
+                    "coeff": 1,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 1,
+                    "comments": "#Le point est attribu\u00e9 si l\u2019\u00e9tape est valid\u00e9e."
+                },
+                {
+                    "name": "shell_sort",
+                    "coeff": 1,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 0,
+                    "comments": "#Le point est attribu\u00e9 si l\u2019\u00e9tape est valid\u00e9e."
+                },
+                {
+                    "name": "merge_sort",
+                    "coeff": 2,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 1,
+                    "comments": "#Le point est attribu\u00e9 si l\u2019\u00e9tape est valid\u00e9e."
+                },
+                {
+                    "name": "quick_sort",
+                    "coeff": 1,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 1,
+                    "comments": "#Le point est attribu\u00e9 si l\u2019\u00e9tape est valid\u00e9e."
+                },
+                {
+                    "name": "comb_sort",
+                    "coeff": 2,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 1,
+                    "comments": "#Le point est attribu\u00e9 si l\u2019\u00e9tape est valid\u00e9e."
+                },
+                {
+                    "name": "README - Explication tri par insertion",
+                    "coeff": 0.5,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 0.5,
+                    "comments": "#Le fonctionnement du tri est expliqu\u00e9 et juste."
+                },
+                {
+                    "name": "README - Explication tri par s\u00e9lection",
+                    "coeff": 0.5,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 0.5,
+                    "comments": "#Le fonctionnement du tri est expliqu\u00e9 et juste."
+                },
+                {
+                    "name": "README - Explication tri \u00e0 bulle",
+                    "coeff": 0.5,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 0.5,
+                    "comments": "#Le fonctionnement du tri est expliqu\u00e9 et juste."
+                },
+                {
+                    "name": "README - Explication tri shell",
+                    "coeff": 0.5,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 0.5,
+                    "comments": "#Le fonctionnement du tri est expliqu\u00e9 et juste."
+                },
+                {
+                    "name": "README - Explication tri fusion",
+                    "coeff": 1,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 1,
+                    "comments": "#Le fonctionnement du tri est expliqu\u00e9 et juste."
+                },
+                {
+                    "name": "README - Explication tri rapide",
+                    "coeff": 1,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 1,
+                    "comments": "#Le fonctionnement du tri est expliqu\u00e9 et juste."
+                },
+                {
+                    "name": "README - Explication tri \u00e0 peigne",
+                    "coeff": 1,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 0.5,
+                    "comments": "#Le fonctionnement du tri est expliqu\u00e9 et juste."
+                },
+                {
+                    "name": "README - Analyse des diff\u00e9rents tris",
+                    "coeff": 1,
+                    "marks": [
+                        0,
+                        0.5,
+                        1,
+                        1.5,
+                        2,
+                        2.5,
+                        3
+                    ],
+                    "default": 0,
+                    "comments": "#Analyse de chaque tri. Pr\u00e9sentation des donn\u00e9es en elles-m\u00eames pour chaque tri (pr\u00e9sentation des indicateurs de performance, temps, nombre de comparaisons, complexit\u00e9 de l\u2019algorithme). 0,5 point par tri."
+                },
+                {
+                    "name": "README - Analyse compar\u00e9e - r\u00e9capitulatif",
+                    "coeff": 1,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 0,
+                    "comments": "#Pr\u00e9sence (0,5) d\u2019un r\u00e9capitulatif des donn\u00e9es pertinents et de leurs analyses (0,5)."
+                },
+                {
+                    "name": "README - Jeux de tests",
+                    "coeff": 1,
+                    "marks": [
+                        0,
+                        0.5,
+                        1,
+                        1.5,
+                        2
+                    ],
+                    "default": 0,
+                    "comments": "#L\u2019ensemble des points est accord\u00e9 si tous les algorithmes ont \u00e9t\u00e9 test\u00e9s sur plusieurs jeux de tests.\n1,5 points si 5 \u00e0 6 algorithmes ont \u00e9t\u00e9 test\u00e9s suivant diff\u00e9rents jeux de tests.\n1 point si au moins 4 des 7 algorithmes ont \u00e9t\u00e9 test\u00e9s sur plusieurs jeux de tests.\n2 \u00e0 3 : 0,5 point"
+                },
+                {
+                    "name": "Bonus",
+                    "coeff": 1,
+                    "marks": [
+                        0,
+                        0.5,
+                        1,
+                        1.5,
+                        2,
+                        2.5,
+                        3,
+                        3.5,
+                        4,
+                        4.5,
+                        5
+                    ],
+                    "default": 0,
+                    "comments": "#Bonus 1 point si pr\u00e9sence de sch\u00e9mas et de visuels pertinents dans le readme."
+                },
+                {
+                    "name": "Malus",
+                    "coeff": 1,
+                    "marks": [
+                        -5,
+                        -4.5,
+                        -4,
+                        -3.5,
+                        -3,
+                        -2.5,
+                        -2,
+                        -1.5,
+                        -1,
+                        -0.5,
+                        0
+                    ],
+                    "default": 0,
+                    "comments": "#Malus -2 si aucun algorithme de tri rendu."
+                }
+            ],
+            "comments": [
+                {
+                    "prof": "cros_b",
+                    "comment": "Vos explications de tri pourrait \u00eatre plus d\u00e9velopp\u00e9. Vous ne passer que l\u00e9g\u00e8rement sur le fonctionnement (certain plus que d'autre comme le merge et quick sort), et vous ne justifier pas vos compl\u00e9xit\u00e9. (certaine d'ailleurs sont fausse, pour le selection sort par exemple, peu importe le cas la complexit\u00e9 est toujours la m\u00eame).\nPas de benchmark, pas d'analyse, d\u00e9cevant."
+                }
+            ],
+            "student": {
+                "personnals": [],
+                "absent": false,
+                "cheater": false
+            }
+        },
+        "average": "5.623333331280285",
+        "minimal": "-42",
+        "maximal": "21",
+        "activity_type": "quest"
+    },
+    {
+        "session_id": 7465,
+        "session_name": "2023_Bachelor - Octobre_TIC-WEB3_7_0",
+        "validation": null,
+        "activity_id": 41261,
+        "activity_name": "Crowdin",
+        "activity_eliminate": null,
+        "uv_name": "TIC-WEB3",
+        "uv_long_name": "Technologie WEB",
+        "student_mark": 12.9,
+        "mark_date": "2021-03-10 14:36:03",
+        "checklist": {
+            "intro": "#Bien cocher la case absent en cas d'absence d'un des \u00c3\u00a9tudiants. En cas de suspicion de triche, revenir vers le service p\u00c3\u00a9dagogique.",
+            "stages": [
+                {
+                    "name": "Fonctionnalit\u00e9 - Gestion de mon compte",
+                    "coeff": 0.7,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 1,
+                    "comments": "#- Point enti\u00e8rement attribu\u00e9 si fonctionnalit\u00e9 totalement fonctionnelle. Si partiel : 0,5"
+                },
+                {
+                    "name": "Fonctionnalit\u00e9 - Page profile",
+                    "coeff": 0.7,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 1,
+                    "comments": "#- Point enti\u00e8rement attribu\u00e9 si fonctionnalit\u00e9 totalement fonctionnelle. Si partiel : 0,5 point."
+                },
+                {
+                    "name": "Fonctionnalit\u00e9 - Projet - Cr\u00e9ation source manuelle",
+                    "coeff": 0.7,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 0,
+                    "comments": "#- Point enti\u00e8rement attribu\u00e9 si fonctionnalit\u00e9 totalement fonctionnelle. Si partiel : 0,5 point."
+                },
+                {
+                    "name": "Fonctionnalit\u00e9 - Projet - Insertion via un fichier",
+                    "coeff": 0.7,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 1,
+                    "comments": "#- Point enti\u00e8rement attribu\u00e9 si fonctionnalit\u00e9 totalement fonctionnelle. Si partiel : 0,5 point."
+                },
+                {
+                    "name": "Fonctionnalit\u00e9 - Projet - Liste projet",
+                    "coeff": 1.4,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 1,
+                    "comments": "#- Point enti\u00e8rement attribu\u00e9 si fonctionnalit\u00e9 totalement fonctionnelle.Si partiel : 0,5 point."
+                },
+                {
+                    "name": "Fonctionnalit\u00e9 - Projet - Blocage",
+                    "coeff": 0.7,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 0,
+                    "comments": "#- Point enti\u00e8rement attribu\u00e9 si fonctionnalit\u00e9 totalement fonctionnelle. Si partiel : 0,5 point."
+                },
+                {
+                    "name": "Fonctionnalit\u00e9 - Projet - Suppression",
+                    "coeff": 0.7,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 0,
+                    "comments": "#Le projet est en soft delete sinon mettre juste 0,5"
+                },
+                {
+                    "name": "Fonctionnalit\u00e9 - Projet - Dashboard",
+                    "coeff": 0.7,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 0,
+                    "comments": "#- Point enti\u00e8rement attribu\u00e9 si fonctionnalit\u00e9 totalement fonctionnelle. Si partiel : 0,5 point."
+                },
+                {
+                    "name": "Fonctionnalit\u00e9 - Projet - Download",
+                    "coeff": 0.7,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 0,
+                    "comments": "#- Point enti\u00e8rement attribu\u00e9 si fonctionnalit\u00e9 totalement fonctionnelle. Si partiel : 0,5 point."
+                },
+                {
+                    "name": "Fonctionnalit\u00e9 - Traducteur - Random",
+                    "coeff": 0.7,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 0,
+                    "comments": "#- Point enti\u00e8rement attribu\u00e9 si fonctionnalit\u00e9 totalement fonctionnelle. Si partiel : 0,5 point."
+                },
+                {
+                    "name": "Fonctionnalit\u00e9 - Traducteur - Project",
+                    "coeff": 0.7,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 0,
+                    "comments": "#- Point enti\u00e8rement attribu\u00e9 si fonctionnalit\u00e9 totalement fonctionnelle. Si partiel : 0,5 point."
+                },
+                {
+                    "name": "Tech - Controller",
+                    "coeff": 0.97,
+                    "marks": [
+                        0,
+                        0.5,
+                        1,
+                        1.5,
+                        2
+                    ],
+                    "default": 2,
+                    "comments": "#Si pas de logique m\u00e9tier dans les controlleurs : 2 points. \nSi pr\u00e9sence l\u00e9g\u00e8re de logique (par exemple : 1 r\u00e8gle): retrancher des points en fonction. \nSi pr\u00e9sence de fonctions/ beaucoup de logique (gros bloc de code) : 0 point."
+                },
+                {
+                    "name": "Tech - Repository",
+                    "coeff": 0.97,
+                    "marks": [
+                        0,
+                        0.5,
+                        1,
+                        1.5,
+                        2
+                    ],
+                    "default": 1.5,
+                    "comments": "#Uniquement des requ\u00eates dans les repositories : 2 points. \nSi pr\u00e9sence de logique m\u00e9tier l\u00e9g\u00e8re : retirer des points. \nSi pr\u00e9sence de beaucoup de logique : 0 point."
+                },
+                {
+                    "name": "Tech - Model",
+                    "coeff": 0.97,
+                    "marks": [
+                        0,
+                        0.5,
+                        1,
+                        1.5,
+                        2
+                    ],
+                    "default": 1.5,
+                    "comments": "#Si pas de fonctions de traitement dans les models et qu'ils sont construits correctement (syntaxe correcte, champs corrects, le mod\u00e8le ressemble \u00e0 la BDD) : 2 points.\nSi utilisation de mauvaises relations ( -1).\nSi champ mal typ\u00e9 ou pr\u00e9sence de conditions (-0,5)."
+                },
+                {
+                    "name": "Tech - Security",
+                    "coeff": 0.97,
+                    "marks": [
+                        0,
+                        0.5,
+                        1,
+                        1.5,
+                        2
+                    ],
+                    "default": 0,
+                    "comments": "#L'application doit \u00eatre s\u00e9curis\u00e9e, une personne ne peut pas modifier le projet de quelqu'un d'autre, ou traduire dans une langue qu'il ne ma\u00eetrise pas : 2 points.\nSi partiellement s\u00e9curis\u00e9 : retrancher des points.\nSi 0 s\u00e9curit\u00e9 : 0 point."
+                },
+                {
+                    "name": "Configuration",
+                    "coeff": 0.7,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 1,
+                    "comments": "#La configuration est homog\u00e8ne, l'\u00e9tudiant utilise soit annotation soit fichier yml mais jamais un mixte."
+                },
+                {
+                    "name": "UX",
+                    "coeff": 0.97,
+                    "marks": [
+                        0,
+                        0.5,
+                        1,
+                        1.5,
+                        2
+                    ],
+                    "default": 2,
+                    "comments": "#- 1 point si l'\u00e9tudiant a fait un effort sur l'int\u00e9gration \n- 2 points si l'\u00e9tudiant a fait un vrai design"
+                },
+                {
+                    "name": "Questions",
+                    "coeff": 0.97,
+                    "marks": [
+                        0,
+                        0.5,
+                        1,
+                        1.5,
+                        2
+                    ],
+                    "default": 2,
+                    "comments": "#Le groupe a su r\u00e9pondre aux questions et comprend les probl\u00e8mes rencontr\u00e9s pendant la soutenance."
+                },
+                {
+                    "name": "Bonus",
+                    "coeff": 1,
+                    "marks": [
+                        0,
+                        0.5,
+                        1,
+                        1.5,
+                        2,
+                        2.5,
+                        3,
+                        3.5,
+                        4,
+                        4.5,
+                        5
+                    ],
+                    "default": 0,
+                    "comments": ""
+                },
+                {
+                    "name": "Malus",
+                    "coeff": 1,
+                    "marks": [
+                        -15,
+                        -14.5,
+                        -14,
+                        -13.5,
+                        -13,
+                        -12.5,
+                        -12,
+                        -11.5,
+                        -11,
+                        -10.5,
+                        -10,
+                        -9.5,
+                        -9,
+                        -8.5,
+                        -8,
+                        -7.5,
+                        -7,
+                        -6.5,
+                        -6,
+                        -5.5,
+                        -5,
+                        -4.5,
+                        -4,
+                        -3.5,
+                        -3,
+                        -2.5,
+                        -2,
+                        -1.5,
+                        -1,
+                        -0.5,
+                        0
+                    ],
+                    "default": 0,
+                    "comments": "#-10 si il n'utilise pas symfony 3 ou +"
+                }
+            ],
+            "comments": [
+                {
+                    "prof": "rafina_d",
+                    "comment": "Bon d\u00e9but de projet, quelques fonctionnalit\u00e9s sont pr\u00e9sentes.\nBonne compr\u00e9hension du framework.\nBonne continuation"
+                }
+            ],
+            "student": {
+                "personnals": [],
+                "absent": false,
+                "cheater": false
+            }
+        },
+        "average": "-0.4415204465737817",
+        "minimal": "-21",
+        "maximal": "18.4",
+        "activity_type": "project"
+    },
+    {
+        "session_id": 7559,
+        "session_name": "2023_Bachelor - Octobre_TIC-RES3_8_0",
+        "validation": null,
+        "activity_id": 41644,
+        "activity_name": "Quest R\u00e9seau 1",
+        "activity_eliminate": null,
+        "uv_name": "TIC-RES3",
+        "uv_long_name": "Reseau",
+        "student_mark": 20,
+        "mark_date": "2021-03-11 15:19:17",
+        "checklist": {
+            "intro": "",
+            "stages": [
+                {
+                    "name": "Etape 1 - Mise en place de l'architecture",
+                    "coeff": 4,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 1,
+                    "comments": ""
+                },
+                {
+                    "name": "Etape 2 - Hostname",
+                    "coeff": 3,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 1,
+                    "comments": ""
+                },
+                {
+                    "name": "Etape 3 - Ping",
+                    "coeff": 3,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 1,
+                    "comments": ""
+                },
+                {
+                    "name": "Etape 4 - RIPv2",
+                    "coeff": 3,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 1,
+                    "comments": ""
+                },
+                {
+                    "name": "Etape 5 - Serveur Web",
+                    "coeff": 3,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 1,
+                    "comments": ""
+                },
+                {
+                    "name": "Etape 6 - Serveur TFTP",
+                    "coeff": 4,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 1,
+                    "comments": ""
+                },
+                {
+                    "name": "Etape Bonus - Restrictions",
+                    "coeff": 1,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 0,
+                    "comments": ""
+                },
+                {
+                    "name": "Bonus",
+                    "coeff": 1,
+                    "marks": [
+                        0,
+                        0.5,
+                        1,
+                        1.5,
+                        2,
+                        2.5,
+                        3,
+                        3.5,
+                        4,
+                        4.5,
+                        5
+                    ],
+                    "default": 0,
+                    "comments": ""
+                },
+                {
+                    "name": "Malus",
+                    "coeff": 1,
+                    "marks": [
+                        -5,
+                        -4.5,
+                        -4,
+                        -3.5,
+                        -3,
+                        -2.5,
+                        -2,
+                        -1.5,
+                        -1,
+                        -0.5,
+                        0
+                    ],
+                    "default": 0,
+                    "comments": ""
+                }
+            ],
+            "comments": [
+                {
+                    "prof": "arnoul_l",
+                    "comment": "Correction automatique"
+                }
+            ],
+            "student": {
+                "personnals": [],
+                "absent": false,
+                "cheater": false
+            }
+        },
+        "average": "7.88135593220339",
+        "minimal": "0",
+        "maximal": "21",
+        "activity_type": "quest"
+    },
+    {
+        "session_id": 7559,
+        "session_name": "2023_Bachelor - Octobre_TIC-RES3_8_0",
+        "validation": null,
+        "activity_id": 41671,
+        "activity_name": "Quest R\u00e9seau 2",
+        "activity_eliminate": null,
+        "uv_name": "TIC-RES3",
+        "uv_long_name": "Reseau",
+        "student_mark": 13,
+        "mark_date": "2021-03-11 15:17:57",
+        "checklist": {
+            "intro": "",
+            "stages": [
+                {
+                    "name": "Etape 1 - Mise en place de l'architecture",
+                    "coeff": 4,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 1,
+                    "comments": ""
+                },
+                {
+                    "name": "Etape 2 - Hostname",
+                    "coeff": 1,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 1,
+                    "comments": ""
+                },
+                {
+                    "name": "Etape 3 - S\u00e9curit\u00e9",
+                    "coeff": 1,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 1,
+                    "comments": ""
+                },
+                {
+                    "name": "Etape 4 - Ping",
+                    "coeff": 4,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 1,
+                    "comments": ""
+                },
+                {
+                    "name": "Etape 5 - Protocole OSPFv2",
+                    "coeff": 2,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 1,
+                    "comments": ""
+                },
+                {
+                    "name": "Etape 6 - Serveur TFTP",
+                    "coeff": 1,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 1,
+                    "comments": ""
+                },
+                {
+                    "name": "Etape 7 - S\u00e9curit\u00e9",
+                    "coeff": 3,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 0,
+                    "comments": ""
+                },
+                {
+                    "name": "Etape 8 - Restrictions",
+                    "coeff": 4,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 0,
+                    "comments": ""
+                },
+                {
+                    "name": "Bonus",
+                    "coeff": 1,
+                    "marks": [
+                        0,
+                        0.5,
+                        1,
+                        1.5,
+                        2,
+                        2.5,
+                        3,
+                        3.5,
+                        4,
+                        4.5,
+                        5
+                    ],
+                    "default": 0,
+                    "comments": ""
+                },
+                {
+                    "name": "Malus",
+                    "coeff": 1,
+                    "marks": [
+                        -5,
+                        -4.5,
+                        -4,
+                        -3.5,
+                        -3,
+                        -2.5,
+                        -2,
+                        -1.5,
+                        -1,
+                        -0.5,
+                        0
+                    ],
+                    "default": 0,
+                    "comments": ""
+                }
+            ],
+            "comments": [
+                {
+                    "prof": "arnoul_l",
+                    "comment": "Correction automatique"
+                }
+            ],
+            "student": {
+                "personnals": [],
+                "absent": false,
+                "cheater": false
+            }
+        },
+        "average": "4.866279069767442",
+        "minimal": "0",
+        "maximal": "20",
+        "activity_type": "quest"
+    },
+    {
+        "session_id": 7657,
+        "session_name": "2023_Bachelor - Octobre_SDC-INO3_5_0",
+        "validation": null,
+        "activity_id": 41803,
+        "activity_name": "Make tech great again",
+        "activity_eliminate": 10,
+        "uv_name": "SDC-INO3",
+        "uv_long_name": "Innov'Camp 2021",
+        "student_mark": 32,
+        "mark_date": "2021-03-25 16:01:03",
+        "checklist": {
+            "intro": "",
+            "stages": [
+                {
+                    "name": "01 - Le probl\u00e8me",
+                    "coeff": 2,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 1,
+                    "comments": "#- Le probl\u00e8me est identifi\u00e9 (0,5)\n- Le probl\u00e8me est pertinent (0,5)"
+                },
+                {
+                    "name": "02 - La solution",
+                    "coeff": 2,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 1,
+                    "comments": "#La solution apport\u00e9e est-elle pertinente par rapport au probl\u00e8me \u00e9voqu\u00e9 ?"
+                },
+                {
+                    "name": "03 - La cible",
+                    "coeff": 2,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 1,
+                    "comments": "#- Identification de la cible (0,5)\n- Pertinence de la cible (0,5)"
+                },
+                {
+                    "name": "04 - Le march\u00e9",
+                    "coeff": 2,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 1,
+                    "comments": "#- Le march\u00e9 est identifi\u00e9 (0,5)\n- Quelques chiffres cl\u00e9s ont \u00e9t\u00e9 donn\u00e9s (0,5)"
+                },
+                {
+                    "name": "05 - La concurrence",
+                    "coeff": 1.5,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 1,
+                    "comments": "#La concurrence directe est identifi\u00e9e."
+                },
+                {
+                    "name": "06 - Value proposition",
+                    "coeff": 1,
+                    "marks": [
+                        1,
+                        1.5,
+                        2,
+                        2.5,
+                        3,
+                        3.5,
+                        4,
+                        4.5,
+                        5
+                    ],
+                    "default": 5,
+                    "comments": "#Plus-value par rapport \u00e0 la concurrence ?\nBusiness model viable ?"
+                },
+                {
+                    "name": "07 - Qualit\u00e9 de persuasion et d'argumentation",
+                    "coeff": 3,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 1,
+                    "comments": "#Vous \u00eates un investisseur, est-ce que vous \u00eates convaincu par la pr\u00e9sentation ? Est-ce que vous investiriez dans ce projet?"
+                },
+                {
+                    "name": "08 - Qualit\u00e9 du pitch",
+                    "coeff": 1,
+                    "marks": [
+                        0,
+                        0.5,
+                        1,
+                        1.5
+                    ],
+                    "default": 1.5,
+                    "comments": "#- L'attention de l'auditoire a \u00e9t\u00e9 capt\u00e9e (0,5)\n- Le pitch est clair et bien organis\u00e9 (0,5)\n- Le support visuel est pertinent (0,5)"
+                },
+                {
+                    "name": "09 - Viabilit\u00e9 de l'id\u00e9e",
+                    "coeff": 1,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 1,
+                    "comments": "#Un avenir pour cette id\u00e9e ?"
+                },
+                {
+                    "name": "10 - Qualit\u00e9 de la prise de parole",
+                    "coeff": 1,
+                    "marks": [
+                        0,
+                        0.5,
+                        1,
+                        1.5
+                    ],
+                    "default": 1.5,
+                    "comments": "#- Bonne \u00e9locution (0,5)\n- Peu d'h\u00e9sitation (0,5)\n- Pas de tics parasites (0,5)"
+                },
+                {
+                    "name": "11 - Bonne vulgarisation",
+                    "coeff": 1,
+                    "marks": [
+                        0,
+                        0.5,
+                        1
+                    ],
+                    "default": 1,
+                    "comments": ""
+                },
+                {
+                    "name": "12 - Le poc",
+                    "coeff": 1,
+                    "marks": [
+                        0,
+                        0.5,
+                        1,
+                        1.5,
+                        2,
+                        2.5,
+                        3,
+                        3.5,
+                        4,
+                        4.5,
+                        5,
+                        5.5,
+                        6,
+                        6.5,
+                        7,
+                        7.5,
+                        8,
+                        8.5,
+                        9,
+                        9.5,
+                        10
+                    ],
+                    "default": 9.5,
+                    "comments": "#- Le poc est pertinent (2)\n- Le poc fonctionne (3)\n- Le poc l\u00e8ve l\u2019ambigu\u00eft\u00e9 de la faisabilit\u00e9 technique (3)\n- Le code est compris (2)"
+                },
+                {
+                    "name": "Bonus",
+                    "coeff": 1,
+                    "marks": [
+                        0,
+                        0.5,
+                        1,
+                        1.5,
+                        2,
+                        2.5,
+                        3,
+                        3.5,
+                        4,
+                        4.5,
+                        5
+                    ],
+                    "default": 0,
+                    "comments": ""
+                },
+                {
+                    "name": "Malus",
+                    "coeff": 1,
+                    "marks": [
+                        -5,
+                        -4.5,
+                        -4,
+                        -3.5,
+                        -3,
+                        -2.5,
+                        -2,
+                        -1.5,
+                        -1,
+                        -0.5,
+                        0
+                    ],
+                    "default": 0,
+                    "comments": ""
+                }
+            ],
+            "comments": [
+                {
+                    "prof": "rinaz_a",
+                    "comment": "POC : Bon petit poc, la faisabilit\u00e9 technique \u00e9tait dure a justifier du fait de la complexit\u00e9 d'obtention des datasets mais le rendu est int\u00e9ressant, merci pour votre travail !\n\nSoutenance : Tr\u00e8s bonne soutenance, tr\u00e8s clair !"
+                }
+            ],
+            "student": {
+                "personnals": [],
+                "absent": false,
+                "cheater": false
+            }
+        },
+        "average": "15.524864835996885",
+        "minimal": "-21",
+        "maximal": "34.5",
+        "activity_type": "project"
+    }
+]
