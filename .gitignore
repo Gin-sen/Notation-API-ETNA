@@ -1,3 +1,4 @@
 .env
 __pycache__
-.vscode
+student_marks
+.vscode/settings.json
